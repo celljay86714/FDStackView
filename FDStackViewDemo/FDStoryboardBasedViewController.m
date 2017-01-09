@@ -39,6 +39,7 @@
     
     self.view.backgroundColor = [UIColor yellowColor];
     
+    self.view.backgroundColor =[UIColor redColor];
 }
 
 #pragma mark - Actions
