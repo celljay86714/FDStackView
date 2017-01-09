@@ -34,6 +34,9 @@
     CGSize headerSize = [self.tableView.tableHeaderView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
     self.tableView.tableHeaderView.frame = CGRectMake(0, 0, headerSize.width ?: CGRectGetWidth(self.view.frame), headerSize.height);
     self.tableView.tableHeaderView = self.tableView.tableHeaderView;
+    
+    self.tableView.backgroundColor =[UIColor redColor];
+    
 }
 
 #pragma mark - Actions
